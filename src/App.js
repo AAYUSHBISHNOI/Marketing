@@ -1,24 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Myheader from './Components/Myheader';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Myslider from './Components/Myslider';
+import Clients from './Components/Clients';
+import Digital from './Components/Digital';
+import Partner from './Components/Partner';
+import Actual from './Components/Actual';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Learn from './Components/Learn';
+import Myfooter from './Components/Myfooter';
+import { useEffect, useState } from 'react';
+import "aos/dist/aos.css"
+import Aos from "aos"
 
 function App() {
+  useEffect (() => {
+  Aos.init({duration:1000, once:true,});
+}, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Myheader/>
+    <Myslider/>
+    <Clients/>
+    <Digital/>
+    <Partner/>
+    <Actual/>
+    <Learn/>
+    <Myfooter/>
+    </>
   );
 }
 
