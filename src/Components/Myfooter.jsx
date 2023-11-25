@@ -51,7 +51,7 @@ const Myfooter = () => {
                     <div>
                         <p className=' ff_neue fs_30 fw_300 text-white'>Get weekly data — and insights.</p>
                     </div>
-                    <div className=' d-flex justify-content-between my_form_2 px-3 py-2 '>
+                    <div className=' d-flex justify-content-between my_form_2 px-3 py-1 '>
                          <input type="text" placeholder='Enter Your Website' />
                             <a href="" className=' mb-0 fs_14 fw_600 ff_neue bttn_analize list_style txt_clr_1'>Get Started</a>
                     </div>

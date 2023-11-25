@@ -66,12 +66,12 @@ const Partner = () => {
                 <p className=' fs_30 fw_300 ff_neue text-black'>you’ve been looking for.</p>
                 <p className=' fs_15 fw_400 ff_neue text-black pt-md-4'>Businesses trust Venveo to power grow.</p>
             </div>
-            <Tabs defaultActiveKey="Industry Expertise" id="uncontrolled-tab-example" className="mb-3">
+            <Tabs defaultActiveKey="Industry Expertise" id="uncontrolled-tab-example" className="mb-3 d-flex justify-content-center">
                  <Tab eventKey="Industry Expertise" title="Industry Expertise" data-aos="zoom-in-up">
                     <div className=' position-relative'>
                         <video className=' w-100 txt_pstn_vd_1 z-n1 h-100 object-fit-cover video_opacity' autoPlay loop muted src={bcg_video}></video>
                         <img className='pstn_rect w-100' src={rectangle} alt="" />
-                        <Row className=' z-3 align-items-center pt-5 pb-lg-5 '>
+                        <Row className=' z-3 align-items-center pt-5 pb-lg-5 px-4'>
                             <Col md={6} lg={5}>
                               <div className='text-center text-md-start ms-md-3'>
                                  <h1 className=' fonts_80 fw_700 text-white ff_sohne text-uppercase mb-0 pt-3 pt-lg-0'>the smartest <span className=' d-md-block'>minds in the</span> <span className=' d-md-block'>industry</span></h1>
@@ -82,7 +82,7 @@ const Partner = () => {
                             </Col>
                             <Col md={6} lg={3} >
                                 <div className=' d-flex flex-column align-items-center'>
-                                    <div className=' d-flex flex-lg-column align-items-center gap-5'>
+                                    <div className=' d-flex flex-lg-column align-items-center gap-5 px-5'>
                                         <div className='my_img'>
                                         <img className=' position-relative' src={first} alt="" />
                                         <img className='img_lop' src={lop} alt="" />
