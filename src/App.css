@@ -301,6 +301,15 @@ cursor: pointer;
   background-color: transparent !important;
   border-color: transparent !important;
 }
+.nav-link::before {
+  position: absolute;
+  content: url("./assets/img/squiggle_01.png");
+  margin-top: 25px;
+  opacity: 0;
+}
+.nav-link.active::before{
+  opacity: 5;
+}
 .nav-link {
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -309,8 +318,8 @@ cursor: pointer;
   font-family: "neue" !important;
   color: #a6a6a6 !important;
   text-decoration: none;
-  background: 0 0;
-  border: 0;
+  background: transparent !important;
+  border: transparent !important;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 .nav-tabs {
@@ -399,7 +408,7 @@ cursor: pointer;
 .card_guide_1 {
   display: flex;
   width: 275px;
-  height: 200px;
+  height: 215px;
   padding: 24px 24px 16px 24px;
   flex-direction: column;
   justify-content: space-between;
@@ -653,7 +662,7 @@ nav ul{
   left: 0;
 }
 .font_24{
-  font-size: 24px;
+  font-size: 19px;
 }
 .under_line::after{
   content: "";
@@ -754,6 +763,12 @@ nav ul{
 }
 .my_img:hover .img_lop_4{
   opacity: 5;
+}
+.topbtn {
+  background: white;
+  border-radius: 100px;
+  padding: 10px 10px;
+  box-shadow: 0px 14px 16px 10px rgba(0, 0, 0, 0.13);
 }
 @media (max-width:1198px) {
   nav ul {
@@ -1059,6 +1074,10 @@ nav ul{
 .icon_img {
   top: 22%;
 }
+.pstn_circle {
+  bottom: -10%;
+  left: 0;
+}
 }
 @media (min-width:1200px) {
   .fs_40{
@@ -1091,7 +1110,7 @@ nav ul{
   transform: translateY(15%);
 }
 .pstn_circle {
-  bottom: -13%;
+  bottom: -4%;
 }
 .img_pstn_2 {
   top: 14%;
@@ -1142,8 +1161,16 @@ nav ul{
   .font_31{
     font-size: 22px;
   }
+  .pstn_circle {
+    bottom: -4%;
+    left: 5%;
+}
 }
 @media (min-width:1440px) {
+  .pstn_circle {
+    bottom: -4%;
+    left: 1%;
+}
   .img_lop{
     position: absolute;
     left: 47%;
@@ -1200,14 +1227,14 @@ nav ul{
     font-size: 80px;
   }
   .fnt_80{
-    font-size: 80px;
+    font-size: 56px;
   }
   .hero_img{
     top: 23%;
   }
   .img_pstn_2{
-    top: 20%;
-    left: 38%;
+    top: 24%;
+    left: 30%;
   }
   .pstn_vector{
     width: 18%;
@@ -1215,7 +1242,7 @@ nav ul{
     left: -0.5%;
   }
   .img_slider_width{
-    width: 400px;
+    width: 440px;
   }
 }
 @media (min-width:1920px) {
@@ -1245,7 +1272,7 @@ nav ul{
   top: 37%;
 }
   .pstn_circle{
-    left: 22%;
+    left: 14%;
   }
   .hero_img{
     left: 37%;
@@ -1259,5 +1286,8 @@ nav ul{
   }
   .font_22{
     font-size: 22px;
+  }
+  .fnt_80{
+    font-size: 50px;
   }
 }

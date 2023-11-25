@@ -15,6 +15,7 @@ import Myfooter from './Components/Myfooter';
 import { useEffect, useState } from 'react';
 import "aos/dist/aos.css"
 import Aos from "aos"
+import BackToTop from './Components/comon/Backtotop';
 
 function App() {
   useEffect (() => {
@@ -30,6 +31,7 @@ function App() {
     <Actual/>
     <Learn/>
     <Myfooter/>
+    <BackToTop/>
     </>
   );
 }
