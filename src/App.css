@@ -1259,6 +1259,9 @@ nav ul{
   }
 }
 @media (min-width:1920px) {
+  .card_digital {
+    width: 90%;
+}
   .my_form_1 {
     width: 35%;
 }
