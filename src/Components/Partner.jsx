@@ -58,7 +58,7 @@ const Partner = () => {
         
       };
   return (
-    <div className=' mt-lg-5 pt-5 mb-md-5 pb-5 position-relative overflow-hidden'>
+    <div className=' mt-lg-5 pt-xxl-0 mb-md-5 pb-5 position-relative overflow-hidden'>
         <img className=' img_pstn_5 w-100' src={green} alt="" />
         <Container className=' mt-5'>
             <div className=' text-center' data-aos="zoom-in">

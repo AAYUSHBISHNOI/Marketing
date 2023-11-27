@@ -1259,6 +1259,17 @@ nav ul{
   }
 }
 @media (min-width:1920px) {
+  .img_green {
+    height: 20%;
+    bottom: -9%;
+}
+.img_pstn_4 {
+  bottom: -2%;
+  left: 44%;
+}
+.padding_text {
+  padding-top: 5%;
+}
   .card_digital {
     width: 90%;
 }
