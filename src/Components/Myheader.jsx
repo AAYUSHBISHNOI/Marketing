@@ -73,7 +73,9 @@ const Myheader = () => {
           <div className='my_circle d-flex align-items-center text-center justify-content-center pstn_circle'>
             <p className='mb-0 ff_neue fs_15 fw_400 text-black'>MADE <span className='d-block txt_for'>for</span><span className='d-block'>BRANDS</span></p>
           </div>
-          <video className='pstn_video w-100' autoPlay loop muted src={video}></video>
+          <div className=' d-flex justify-content-center'>
+            <video className='pstn_video' autoPlay loop muted src={video}></video>
+          </div>
         </Container>
       </section>
     </div>

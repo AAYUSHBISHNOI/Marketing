@@ -186,6 +186,7 @@ input{
   font-family: "neue";
 }
 .pstn_video{
+  width: 100%;
   transform: translateY(30%);
 }
 .pstn_circle{
@@ -1100,17 +1101,19 @@ nav ul{
     width: 370px; 
   }
   .hero_img {
-    top: 25.5%;
+    top: 30%;
     left: 29%;
 }
 .my_form {
   width: 30%;
 }
 .pstn_video {
+  width: 75%;
   transform: translateY(15%);
 }
 .pstn_circle {
   bottom: -4%;
+  left: 12%;
 }
 .img_pstn_2 {
   top: 14%;
@@ -1149,6 +1152,10 @@ nav ul{
 }
 }
 @media (min-width:1320px) {
+  .my_circle {
+    width: 107px;
+    height: 107px;
+}
   .font_29{
     font-size: 28px;
   }
@@ -1162,14 +1169,20 @@ nav ul{
     font-size: 22px;
   }
   .pstn_circle {
-    bottom: -4%;
-    left: 5%;
+    bottom: -6%;
+    left: 14%;
+}
+}
+@media (min-width:1368px) {
+  .pstn_circle {
+    bottom: -5%;
+    left: 16%;
 }
 }
 @media (min-width:1440px) {
   .pstn_circle {
     bottom: -4%;
-    left: 1%;
+    left: 13%;
 }
   .img_lop{
     position: absolute;
@@ -1230,7 +1243,7 @@ nav ul{
     font-size: 56px;
   }
   .hero_img{
-    top: 23%;
+    top: 28%;
   }
   .img_pstn_2{
     top: 24%;
@@ -1275,7 +1288,7 @@ nav ul{
   top: 37%;
 }
   .pstn_circle{
-    left: 14%;
+    left: 22%;
   }
   .hero_img{
     left: 37%;
