@@ -1,9 +1,13 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
 import Slider from "react-slick";
-import { Enter, Forbes, Fortune, Inc, Wsj } from './Mysvg';
 import myimg from "../assets/img/line1.png";
 import myline from "../assets/img/line2.png";
+import ws from "../assets/img/wsj.png";
+import entr from "../assets/img/enter.png";
+import fort from "../assets/img/fort.png";
+import forb from "../assets/img/forbes.png";
+import inc from "../assets/img/inc.png";
 
 const Myslider = () => {
     const settings = {
@@ -42,28 +46,30 @@ const Myslider = () => {
         
       };
   return (
-    <div className=' mt-md-5 pt-5 position-relative pb-md-5 overflow-hidden'>
+    <div className=' mt-md-5 pt-5 position-relative pb-md-5'>
       <img className='img_pstn w-100' src={myimg} alt="" />
       <img className='img_pstn_1 w-100' src={myline} alt="" />
-        <Container className=' mt-5 pt-5'>
+        <Container className=' mt-5'>
                 <p className='fs_15 fw_600 ff_neue text-black text-center mb-5'>Featured in</p>
-       <Slider {...settings} className=' mt-5 mb-5 pb-5'>
-          <div>
-            <Wsj/>
-          </div>
-          <div>
-            <Enter/>
-          </div>
-          <div>
-            <Fortune/>
-          </div>
-          <div>
-            <Forbes/>
-          </div>
-          <div>
-            <Inc/>
-          </div>
+            <div className=' px-5'>
+            <Slider {...settings} className=' mb-5 pb-5'>
+              <div className=' d-flex justify-content-center'>
+                <img src={ws} alt="" />
+              </div>
+              <div className=' d-flex justify-content-center'>
+                <img src={entr} alt="" />
+              </div>
+              <div className=' d-flex justify-content-center'>
+                <img src={fort} alt="" />
+              </div>
+              <div className=' d-flex justify-content-center'>
+                <img src={forb} alt="" />
+              </div>
+             <div className=' d-flex justify-content-center'>
+              <img src={inc} alt="" srcset="" />
+             </div>
         </Slider>
+            </div>
         </Container>
 
     </div>

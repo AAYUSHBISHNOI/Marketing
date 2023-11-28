@@ -5,7 +5,7 @@ import mysqy from "../assets/img/squiggle_01.png";
 
 const Clients = () => {
   return (
-    <div className=' mt-xl-5 pt-xxl-5 position-relative overflow-hidden'>
+    <div className=' mt-xl-5 pt-xxl-0 position-relative overflow-hidden'>
                    <img className='img_pstn_2' src={mysqy} alt="" />
             <div className=' text-center' data-aos="fade-up">
             <p className='ff_neue fs_30 fw_300 text-black mb-0'>Driving digital revenue for over</p>

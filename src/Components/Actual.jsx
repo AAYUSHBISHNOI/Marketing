@@ -62,7 +62,7 @@ const Actual = () => {
         </Container>
         <button className='img_pstn_8 z-3' onClick={() => slider.current.slickPrev()}><Sliderone/></button>
         <button className='img_pstn_9 z-3' onClick={() => slider.current.slickNext()}><Slidertwo/></button>
-        <Slider ref={slider} {...settings}>
+        <Slider ref={slider} {...settings} className='my_slider'>
        
           <div className=' text-center slider_width position-relative' data-aos="zoom-out-up">
             <img className=' w-100' src={man} alt="" />

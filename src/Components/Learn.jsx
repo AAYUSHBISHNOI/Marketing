@@ -70,9 +70,11 @@ const Learn = () => {
 
        <div className='  bcg_blue txt_padding mt-4 mt-md-0'>
           <Container>
-              <div className='d-md-flex align-items-center justify-content-center' data-aos="zoom-out">
-                 <p className=' ff_neue fs_40 fw_300 text-white mb-3 text-center'>Ready to hit your goals?</p>
-                 <button className=' ff_neue fs_15 fw_600 text-black bttn_book mb-0 mx-auto d-flex'>Book a Strategy Call <Arrow/></button>
+              <div className='d-md-flex flex-wrap align-items-center justify-content-center gap-5' data-aos="zoom-out">
+                 <p className=' ff_neue fs_40 fw_300 text-white text-center mb-0'>Ready to hit your goals?</p>
+                 <div className=' d-flex justify-content-center'>
+                   <button className=' ff_neue fs_15 fw_600 text-black bttn_book mb-0'>Book a Strategy Call <Arrow/></button>
+                 </div>
               </div>
           </Container>
        </div>

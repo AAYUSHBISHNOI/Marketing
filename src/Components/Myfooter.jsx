@@ -46,7 +46,7 @@ const Myfooter = () => {
                         <li><a href="" className=' ff_neue fs_15 fw_300 text-white list_style under_line position-relative'>Podcast</a></li>
                     </ul>
                 </Col>
-                <Col lg={5} md={8} xl={5} className='txt_wrap order-0 order-md-4 pb-4 pt-md-4 pt-xl-0'>
+                <Col lg={5} md={8} xl={5} className='txt_wrap order-0 order-md-4 pb-4 pt-md-4 pt-xl-0 d-flex justify-content-lg-end justify-content-center'>
                     <div className=' d-flex flex-column'>
                     <div>
                         <p className=' ff_neue fs_30 fw_300 text-white'>Get weekly data — and insights.</p>

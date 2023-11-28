@@ -22,7 +22,7 @@ const Myheader = () => {
       <nav>
         <div className=' d-flex justify-content-end'>
         <ul className={show ? "open": ""}>
-            <Dropdown as={ButtonGroup} className=' ps-0 ps-xl-5 '>
+            <Dropdown as={ButtonGroup} className=' ps-0 ps-xl-2 '>
               <Button variant="success">How We Help</Button>
                <Dropdown.Toggle split variant="success" id="dropdown-split-basic" />
                  <Dropdown.Menu>
@@ -50,7 +50,7 @@ const Myheader = () => {
               </Dropdown.Menu>
             </Dropdown>
 
-            <li><a href="" className='fs_15 ff_neue fw_700 text-black list_style '>Resources</a></li>
+            <li><a href="" className='font_15 ff_neue fw_700 text-black list_style '>Resources</a></li>
             <li><a href=""><Search/></a></li>
             <button className='button_let py-4 ff_neue fs_15 text-black fw_600'>Let’s Talk <Arrow/></button>
           </ul>
@@ -60,9 +60,9 @@ const Myheader = () => {
       <section className=' d-flex flex-grow-1  position-relative'>
         <Container>
           <div className='text-center pt-4 pt-md-0'>
-            <h1 className='fw_700 text-white ff_sohne fs_120 text-uppercase position-relative'>Make marketing<span className=' d-lg-block'> a growth machine</span></h1>
+            <h1 className='fw_700 text-white pt-xl-5 ff_sohne fs_120 text-uppercase position-relative my_line_hgt'>Make marketing<span className=' d-lg-block'> a growth machine</span></h1>
             <img className='hero_img' src={hero} alt="" />
-            <p className='font_22 ff_neue fw_300 text-white pt-3 pt-md-0'>We focus on results. Not just chatter. Elevate your business <span className='d-block'>with our top-tier services and tech. Get a proposal now.</span></p>
+            <p className='font_22 ff_neue fw_300 text-white pt-3 pt-md-4'>We focus on results. Not just chatter. Elevate your business <span className='d-block'>with our top-tier services and tech. Get a proposal now.</span></p>
            <div className=' d-flex justify-content-center'>
             <div className=' d-flex justify-content-between my_form '>
               <input type="text" placeholder='Enter Your Website' />
@@ -74,7 +74,7 @@ const Myheader = () => {
             <p className='mb-0 ff_neue fs_15 fw_400 text-black'>MADE <span className='d-block txt_for'>for</span><span className='d-block'>BRANDS</span></p>
           </div>
           <div className=' d-flex justify-content-center'>
-            <video className='pstn_video' autoPlay loop muted src={video}></video>
+            <video className='pstn_video box_shadow' autoPlay loop muted src={video}></video>
           </div>
         </Container>
       </section>

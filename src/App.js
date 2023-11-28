@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Myslider from './Components/Myslider';
 import Clients from './Components/Clients';
 import Digital from './Components/Digital';
+import Start from "./Components/Start";
 import Partner from './Components/Partner';
 import Actual from './Components/Actual';
 import "slick-carousel/slick/slick.css"; 
@@ -27,6 +28,7 @@ function App() {
     <Myslider/>
     <Clients/>
     <Digital/>
+    <Start/>
     <Partner/>
     <Actual/>
     <Learn/>

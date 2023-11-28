@@ -58,11 +58,11 @@ const Partner = () => {
         
       };
   return (
-    <div className=' mt-lg-5 pt-xxl-0 mb-md-5 pb-5 position-relative overflow-hidden'>
+    <div className=' mb-md-5 pb-5 position-relative overflow-hidden'>
         <img className=' img_pstn_5 w-100' src={green} alt="" />
-        <Container className=' mt-5'>
+        <Container className=''>
             <div className=' text-center' data-aos="zoom-in">
-                <h1 className=' fs_80 fw_700 ff_sohne text-black mb-0'>The growth partner </h1>
+                <h1 className=' fs_80 fw_700 ff_sohne text-black mb-0 text-uppercase'>The growth partner </h1>
                 <p className=' fs_30 fw_300 ff_neue text-black'>you’ve been looking for.</p>
                 <p className=' fs_15 fw_400 ff_neue text-black pt-md-4'>Businesses trust Venveo to power grow.</p>
             </div>
